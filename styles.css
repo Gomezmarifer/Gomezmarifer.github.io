@@ -57,18 +57,19 @@ footer {
     width: 100%;
 }
 
-.hero {
-    background-image: url('https://via.placeholder.com/1920x400'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
+..hero {
+  background-image: url('istockphoto-2020157664-612x612.webp'); /* Adjust this filename if needed */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
 }
+
 
 .hero h1 {
     font-size: 3em;
