@@ -1,29 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
 }
 
 nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  background-color: #333;
-  display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-  margin: 0;
+    margin: 0;
 }
 
 nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
 }
 
 nav ul li a:hover {
-  background-color: #575757;
+    background-color: #575757;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+p, ul {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
