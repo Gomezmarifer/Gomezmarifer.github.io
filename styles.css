@@ -57,17 +57,17 @@ footer {
     width: 100%;
 }
 
-..hero {
-  background-image: url('istockphoto-2020157664-612x612.webp'); /* Adjust this filename if needed */
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  color: white;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
+.hero {
+    background-image: url('istockphoto-2020157664-612x612.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
 }
 
 
