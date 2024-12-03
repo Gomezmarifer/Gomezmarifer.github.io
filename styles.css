@@ -56,3 +56,36 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.hero {
+  background-image: url('https://via.placeholder.com/1920x400'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.hero h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
