@@ -72,8 +72,9 @@ footer {
 
 
 .hero h1 {
-    font-size: 3em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: white; /* Add this line or update the color property */
 }
 
 button {
